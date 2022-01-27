@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+:root{
+    font-family: 'Nunito Sans', sans-serif;
+    --BG:#e2e2e2;
+    --BG-DARK:#999999;
+}
+
+body{
+    height:100vh;
+    width:50%;
+    margin: auto;
+    background:var(--BG);
+}
+
+nav{
+    padding-top: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-left{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.nav-right{
+    margin-left: auto;
+    font-size: 1.25rem;
+}
+
+a{
+    text-decoration: none;
+    font-size: inherit;
+    color: inherit;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image{
+    width:35rem;
+    height:35rem;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.docs{
+    margin-top: 4rem;
+    padding: .7rem;
+    border-radius: 5rem;
+    background: var(--BG-DARK);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width:500px) {
+    body{
+        width: 80%;
+    }
+}
