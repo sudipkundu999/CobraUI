@@ -1,0 +1,7 @@
+@import url(/Components/root.css);
+@import url(/Components/components.css);
+
+:root{
+    /* add color's here */
+    --COLOR-BLACK: black;
+}
