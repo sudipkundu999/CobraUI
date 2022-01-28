@@ -1,0 +1,113 @@
+@import url(/Docs/docsMain.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 62.5%;
+    
+    --PRIMARY-TEXT-COLOR:#3f3f3f;
+    --SHADOW:rgb(219, 219, 219);
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+    display: grid;
+	grid-template-columns: repeat(5,1fr);
+	grid-template-areas:
+    'header header header header header'
+    'sidebar main main main main'
+    'sidebar main main main main'
+    'sidebar main main main main';
+    color: var(--PRIMARY-TEXT-COLOR);
+}
+
+header{
+    grid-area: header;
+    box-shadow: 0 2px 10px 2px var(--SHADOW);
+    height: 10vh;
+    padding: 0 4rem 0 4rem;
+    font-size: 3rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside{
+    grid-area: sidebar;
+    height:100vh;
+    box-shadow: 1px 5px 5px 2px var(--SHADOW);
+    position: sticky;
+    top: 0;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 4rem;
+    font-size: 2rem;
+}
+
+main{
+    grid-area: main;
+    padding: 3rem;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style: none;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 1rem;
+}
+
+aside ul li:hover{
+    font-weight: bold;
+}
+
+.nav-heading{
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width:1100px) {
+    aside,li{
+        font-size: 1.75rem;
+    }
+    aside,header{
+        padding-left: 2rem;
+    }
+}
+
+@media screen and (max-width:780px){
+    body{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'header'
+        'main'
+        'main'
+        'main'
+        'footer';
+    }
+
+    aside{
+        display: none;
+    }
+
+    main,header{
+        padding-left: 2rem;
+    }
+
+    code{
+        width:90vw;
+    }
+}
