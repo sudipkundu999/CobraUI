@@ -1,0 +1,57 @@
+.alert{
+    display: flex;
+    width:35rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px rgb(209, 209, 209);
+}
+
+.alert-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+}
+
+.alert-icon i{
+    color: white;
+}
+
+.alert-text{
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+
+/* success-alert */
+.alert-success{
+    background: rgb(201, 252, 201);
+}
+
+.icon-success{
+    background: rgb(141, 199, 55);
+}
+
+/* faliure-alert */
+.alert-faliure{
+    background: rgb(255, 200, 200);
+}
+
+.icon-faliure{
+    background: rgb(177, 42, 42);
+}
+
+/* warning-alert */
+.alert-warning{
+    background: rgb(252, 252, 145);
+}
+
+.icon-warning{
+    background: rgb(224, 224, 35);
+}
+
+/* general-alert */
+.icon-general{
+    background: rgb(79, 79, 255);
+}
