@@ -4,11 +4,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root{
     font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 html {
     scroll-behavior: smooth;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
 }
