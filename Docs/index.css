@@ -1,21 +1,19 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-size: 62.5%;
+    box-sizing: border-box
 }
 
 :root{
+    font-size: 62.5%;
     font-family: 'Nunito Sans', sans-serif;
-    --BG:#e2e2e2;
-    --BG-DARK:#999999;
+    --BG-DARK:#999999
 }
 
 body{
     height:100vh;
-    width:50%;
-    margin: auto;
-    background:var(--BG);
+    width:60%;
+    margin: auto
 }
 
 nav{
@@ -23,16 +21,20 @@ nav{
     width: 100%;
     display: flex;
     align-items: center;
+    font-size: 2.5rem;
 }
 
 .nav-left{
-    font-size: 1.7rem;
-    font-weight: 600;
+    font-weight: 600
+}
+
+span{
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 
 .nav-right{
-    margin-left: auto;
-    font-size: 1.25rem;
+    margin-left: auto
 }
 
 a{
@@ -42,14 +44,16 @@ a{
 }
 
 main{
+    margin-top: 10rem;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
 }
 
 .image{
-    width:35rem;
-    height:35rem;
+    width:25rem;
+    height:25rem;
 }
 
 img{
@@ -57,17 +61,37 @@ img{
     height: 100%;
 }
 
-.docs{
-    margin-top: 4rem;
-    padding: .7rem;
-    border-radius: 5rem;
-    background: var(--BG-DARK);
+.description{
     font-size: 2rem;
-    font-weight: 600;
+    text-align: center;
 }
 
-@media screen and (max-width:500px) {
+#docs{
+    font-size: 1.75rem;
+    font-weight: 600;
+    background: rgb(199, 199, 199);
+    padding: .2rem 1rem .2rem 1rem;
+    border-radius: 5rem;
+}
+
+@media screen and (max-width:1080px) {
     body{
-        width: 80%;
+        width:80%
+    }
+
+    .description{
+        font-size: 1.7rem
+    }
+
+    .image{
+        width:20rem;
+        height:20rem;
+        margin-bottom: 1rem
+    }
+}
+
+@media screen and (max-width:642px) {
+    main{
+        margin-top: 2rem
     }
 }
