@@ -1,5 +1,5 @@
-@import url(/Public/Light-Theme.css);
-@import url(/Docs/ComponentPresentation/ComponentPresentation.css);
+@import url(/public/light-theme.css);
+@import url(/docs/component-presentation/component-presentation.css);
 h2{
     font-size: 2.5rem;
     font-weight: 600;
