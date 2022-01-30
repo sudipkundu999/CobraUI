@@ -1,0 +1,37 @@
+.alert-code-containers{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem .5rem;
+}
+
+.alert-code-containers pre code {
+    max-width: max-content;
+}
+
+.alert-display-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 1rem;
+    margin-bottom: 3rem;
+}
+
+
+@media screen and (min-width:1243px) {
+    .alert-display-container{
+        margin-left: 10rem;
+    }
+}
+
+@media screen and (max-width:1243px){
+    .alert-display-container{
+        flex-direction: column;
+        gap:0;
+        margin-left: 5rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .alert-display-container{
+        margin-left: 0;
+    }
+}
