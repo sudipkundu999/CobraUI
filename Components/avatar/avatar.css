@@ -2,7 +2,7 @@
     --size:50px;
     height: var(--size);
     width: var(--size);
-    border-radius: 100%;
+    border-radius: 50%;
 
     color: white;
     background:grey;
@@ -16,21 +16,21 @@
 .avatar img{
     height: inherit;
     width: inherit;
-    border-radius: 100%;
+    border-radius: 50%;
     overflow: hidden;
 }
 
 .avatar-s{
-    --size:50px;
+    --size:5rem;
     font-size: 2.5rem;
 }
 
 .avatar-m{
-    --size:75px;
+    --size:7.5rem;
     font-size: 4rem;
 }
 
 .avatar-l{
-    --size:100px;
+    --size:10rem;
     font-size: 6rem;
 }

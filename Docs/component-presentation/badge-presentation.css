@@ -12,11 +12,13 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    width: 10rem;
 }
 
 @media screen and (max-width:680px) {
     .badge-display{
         flex-direction: row;
+        width: auto;
     }
     .badge-display-container{
         flex-direction: column;
