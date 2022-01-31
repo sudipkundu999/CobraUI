@@ -1,0 +1,36 @@
+.avatar{
+    --size:50px;
+    height: var(--size);
+    width: var(--size);
+    border-radius: 50%;
+
+    color: white;
+    background:grey;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.avatar img{
+    height: inherit;
+    width: inherit;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar-s{
+    --size:5rem;
+    font-size: 2.5rem;
+}
+
+.avatar-m{
+    --size:7.5rem;
+    font-size: 4rem;
+}
+
+.avatar-l{
+    --size:10rem;
+    font-size: 6rem;
+}

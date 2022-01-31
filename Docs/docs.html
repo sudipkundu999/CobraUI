@@ -143,14 +143,120 @@
         
         <section id="Avatar">
             <h2>Avatar</h2>
-            <p></p>
-            <code></code>
+            <p>Avatars come in 2 varients in dierent sizes</p>
+            <br>
+            <div class="avatar-display-container">
+            <div class="avatar-display">
+                <h3>Avatar with pictures</h3>
+                <div class="avatar avatar-s">
+                    <img src="/assets/svg/avatar1.svg" alt="Avatar">
+                </div>
+                <div class="avatar avatar-m">
+                    <img src="/assets/svg/avatar2.svg" alt="Avatar">
+                </div>
+                <div class="avatar avatar-l">
+                    <img src="/assets/svg/avatar3.svg" alt="Avatar">
+                </div>
+            </div>
+            <br>
+            <div class="avatar-display">
+                <h3>Avatar with text</h3>
+                <div class="avatar avatar-s">
+                    SK
+                </div>
+                <div class="avatar avatar-m">
+                    HP
+                </div>
+                <div class="avatar avatar-l">
+                    AD
+                </div>
+            </div>
+            <br>
+            <pre><code>
+    &#x3C;!-- Avatar with picture --&#x3E;
+    &#x3C;div class=&#x22;avatar avatar-s&#x22;&#x3E;
+        &#x3C;img src=&#x22;/assets/svg/avatar1.svg&#x22; alt=&#x22;Avatar&#x22;&#x3E;  
+    &#x3C;/div&#x3E;
+    
+    &#x3C;!-- Avatar with text --&#x3E;
+    &#x3C;div class=&#x22;avatar avatar-s&#x22;&#x3E;
+        SK
+    &#x3C;/div&#x3E;
+            </code></pre>
+        </div>
         </section>
-        
+
         <section id="Badge">
             <h2>Badge</h2>
-            <p></p>
-            <code></code>
+            <p>Badges are small components placed at the top or bottom right of the parent component to highlight an items status using colors or numbers or both</p>
+            <br>
+            <h3>Badge on Icons</h3>
+            <div class="badge-display-container">
+                <div class="badge-display">
+                <div class="badge">
+                    <i class="fas fa-bell fa-3x"></i>
+                    <span class="badge-color"></span>
+                </div>
+
+                <div class="badge">
+                    <i class="fas fa-heart fa-3x"></i>
+                    <span class="badge-color badge-number">12</span>
+                </div>
+
+                <div class="badge">
+                    <i class="fas fa-envelope fa-3x"></i>
+                    <span class="badge-color badge-text">New</span>
+                </div>
+                </div>
+            <pre><code>
+    &#x3C;div class=&#x22;badge&#x22;&#x3E;
+        &#x3C;i class=&#x22;fas fa-bell fa-3x&#x22;&#x3E;&#x3C;/i&#x3E;
+        &#x3C;span class=&#x22;badge-color&#x22;&#x3E;&#x3C;/span&#x3E;
+    &#x3C;/div&#x3E;
+
+    &#x3C;div class=&#x22;badge&#x22;&#x3E;
+        &#x3C;i class=&#x22;fas fa-heart fa-3x&#x22;&#x3E;&#x3C;/i&#x3E;
+        &#x3C;span class=&#x22;badge-color badge-number&#x22;&#x3E;12&#x3C;/span&#x3E;      
+    &#x3C;/div&#x3E;
+    
+    &#x3C;div class=&#x22;badge&#x22;&#x3E;
+        &#x3C;i class=&#x22;fas fa-envelope fa-3x&#x22;&#x3E;&#x3C;/i&#x3E;
+        &#x3C;span class=&#x22;badge-color badge-text&#x22;&#x3E;New&#x3C;/span&#x3E;
+    &#x3C;/div&#x3E;
+            </code></pre>
+        </div>
+            <h3>Badge on Avatar</h3>
+            <div class="badge-display-container">
+                <div class="badge-display">
+                    <div class="avatar avatar-s">
+                        <img src="/assets/svg/avatar1.svg" alt="Avatar">
+                        <span class="badge-color badge-online"></span>
+                    </div>
+                    <div class="avatar avatar-m">
+                        <img src="/assets/svg/avatar2.svg" alt="Avatar">
+                        <span class="badge-color badge-offline"></span>
+                    </div>
+                    <div class="avatar avatar-l">
+                        <img src="/assets/svg/avatar3.svg" alt="Avatar">
+                        <span class="badge-color badge-online"></span>
+                    </div>  
+                </div>
+                <pre><code>
+    &#x3C;div class=&#x22;avatar avatar-s&#x22;&#x3E;
+        &#x3C;img src=&#x22;/assets/svg/avatar1.svg&#x22; alt=&#x22;Avatar&#x22;&#x3E;      
+        &#x3C;span class=&#x22;badge-color badge-online&#x22;&#x3E;&#x3C;/span&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;avatar avatar-m&#x22;&#x3E;
+        &#x3C;img src=&#x22;/assets/svg/avatar2.svg&#x22; alt=&#x22;Avatar&#x22;&#x3E;
+        &#x3C;span class=&#x22;badge-color badge-offline&#x22;&#x3E;&#x3C;/span&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;avatar avatar-l&#x22;&#x3E;
+        &#x3C;img src=&#x22;/assets/svg/avatar3.svg&#x22; alt=&#x22;Avatar&#x22;&#x3E;
+        &#x3C;span class=&#x22;badge-color badge-online&#x22;&#x3E;&#x3C;/span&#x3E;
+    &#x3C;/div&#x3E;
+                </code></pre>
+            </div>
+
         </section>
         
         <section id="Button">
