@@ -1,0 +1,25 @@
+.badge-display-container pre code {
+    max-width: max-content;
+}
+
+.badge-display-container{
+    display: flex;
+    justify-content:space-around;
+}
+
+.badge-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width:680px) {
+    .badge-display{
+        flex-direction: row;
+    }
+    .badge-display-container{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

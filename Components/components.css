@@ -1,2 +1,4 @@
 /* Import all component css files here */
 @import url(/components/alerts/alerts.css);
+@import url(/components/badge/badge.css);
+@import url(/components/avatar/avatar.css);
