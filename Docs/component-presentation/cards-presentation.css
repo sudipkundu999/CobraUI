@@ -1,0 +1,32 @@
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:2rem;
+}
+
+.card-container pre code{
+    max-width: min-content;
+    max-height: 25rem;
+    margin-top: 2.5rem;
+}
+
+.card-container pre code::-webkit-scrollbar {
+    display: none;
+  }
+
+
+@media screen and (max-width:550px) {
+    .card-container{
+        max-width: 90vw;
+        justify-content: center;
+    }
+
+    .card-horizontal{
+        max-width: 90vw;
+    }
+
+    .text-only-card{
+        width: 90vw;
+    }
+}
