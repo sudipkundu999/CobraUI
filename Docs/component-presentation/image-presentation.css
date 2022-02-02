@@ -1,0 +1,26 @@
+.image-display-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.image-display{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+
+@media screen and (max-width:780px) {
+    .img-container1{
+        width:90vw;
+    }
+
+    .img-container2{
+        --img-size:25vw;
+    }
+
+    .image-display{
+        flex-direction: column;
+    }
+}

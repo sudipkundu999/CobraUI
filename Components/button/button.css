@@ -1,0 +1,50 @@
+:root{
+    --primary:#334155;
+    --secondary:#155E75;
+    --success:#22C55E;
+    --danger:#EF4444 ;
+    --warning:#D97706;
+}
+
+.btn{
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    width: max-content;
+}
+
+.btn-primary{
+    background: var(--primary);
+}
+
+.btn-secondary{
+    background: var(--secondary);
+}
+
+.btn-success{
+    background: var(--success);
+}
+
+.btn-danger{
+    background: var(--danger);
+}
+
+.btn-warning{
+    background: var(--warning);
+}
+
+.btn-link{
+    color: var(--primary);
+    border:thin solid var(--primary);
+}
+
+.btn i{
+    color: var(--primary);
+}
+
+.btn-icon{
+    border: thin solid var(--primary);
+}

@@ -1,0 +1,29 @@
+.img-container1{
+    width: 50vw;
+    height: auto;
+}
+
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+
+.img-container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    --img-size:20vw;
+    width: var(--img-size);
+    height: var(--img-size);
+}
+
+.img-round{
+    width: inherit;
+    height: inherit;
+    overflow: hidden;
+    border-radius: 50%;
+    object-fit:cover;
+}
+
+

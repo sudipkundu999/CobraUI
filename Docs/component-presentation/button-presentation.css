@@ -1,0 +1,30 @@
+.button-display-container pre code{
+    max-width: min-content;
+}
+
+.button-display-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.button-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+@media screen and (max-width:680px) {
+    .button-display-container{
+        flex-direction: column;
+    }
+
+    .button-display{
+        flex-direction: row;
+        max-width: 90vw;
+        flex-wrap: wrap;
+    }
+}
