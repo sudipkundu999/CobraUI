@@ -304,8 +304,182 @@
         
         <section id="Card">
             <h2>Card</h2>
-            <p></p>
-            <code></code>
+            <p>Cards are used to display data collectively</p>
+            <div class="card-container">
+                <div class="vertical-card-container">
+                    <h3>Vertical Card</h3>
+                    <div class="card">
+                        <span class="card-badge">New</span>
+                        <div class="card-image-container">
+                            <button class="card-favourite">
+                                <i class="far fa-heart fa-2x"></i>
+                            </button>
+                            <img src="/assets/img/atomic-habits.jpg" alt="">
+                        </div>
+                        <div class="card-details-container">
+                            <div class="card-title">Atomic Habits</div>
+                            <div class="card-seller">
+                                by James Clear
+                            </div>
+                            <div class="card-price">
+                                <span class="card-current-price">
+                                    ₹540
+                                </span>
+                                <span class="card-actual-price">
+                                    ₹799
+                                </span>
+                                <span class="card-price-off">
+                                    32% off
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-cta">
+                            <button class="btn btn-secondary">
+                                Add to cart
+                            </button>
+                            <button class="btn btn-primary">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical-card-container">
+                    <h3>Card with text overlay</h3>
+                    <div class="card">
+                        <span class="card-text-overlay">
+                            Out of stock!
+                        </span>
+                        <span class="card-badge">New</span>
+                        <div class="card-image-container">
+                            <button class="card-favourite">
+                                <i class="far fa-heart fa-2x"></i>
+                            </button>
+                            <img src="/assets/img/atomic-habits.jpg" alt="">
+                        </div>
+                        <div class="card-details-container">
+                            <div class="card-title">Atomic Habits</div>
+                            <div class="card-seller">
+                                by James Clear
+                            </div>
+                            <div class="card-price">
+                                <span class="card-current-price">
+                                    ₹540
+                                </span>
+                                <span class="card-actual-price">
+                                    ₹799
+                                </span>
+                                <span class="card-price-off">
+                                    32% off
+                                </span>
+                            </div>
+                        </div>
+                        <div class="card-cta">
+                            <button class="btn btn-secondary">
+                                Add to cart
+                            </button>
+                            <button class="btn btn-primary">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="horizontal-card-container">
+                    <h3>Horizontal Card with badge</h3>
+                    <div class="card card-horizontal">
+                        <span class="card-badge">New</span>
+                        <div class="card-image-container">
+                            <button class="card-favourite">
+                                <i class="far fa-heart fa-2x"></i>
+                            </button>
+                            <img src="/assets/img/atomic-habits.jpg" alt="">
+                        </div>
+                        <div class="card-details-container">
+                            <div class="card-title">Atomic Habits</div>
+                            <div class="card-seller">
+                                by James Clear
+                            </div>
+                            <div class="card-price">
+                                <span class="card-current-price">
+                                    ₹540
+                                </span>
+                                <span class="card-actual-price">
+                                    ₹799
+                                </span>
+                                <span class="card-price-off">
+                                    32% off
+                                </span>
+                            </div>
+                            <span class="card-description">
+                                This pragmatic approach to productivity is a perfect addition to your shelf if you are having trouble. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, ipsam quam sit beatae quisquam mollitia ducimus atque maxime laboriosam impedit consequatur modi? Magnam nam possimus voluptates vero rerum ratione harum.
+                            </span>
+                        </div>
+                        <div class="card-cta">
+                            <button class="btn btn-secondary">
+                                Add to cart
+                            </button>
+                            <button class="btn btn-primary">
+                                Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-only-card-container">
+                    <h3>Text only card with dismiss</h3>
+                    <div class="text-only-card">
+                        <span class="card-header">
+                            Cobra UI
+                        </span>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ea eum vitae dolores laudantium perferendis qui enim ratione quibusdam quisquam fugiat, in eveniet nostrum animi tempore voluptas, neque minima iure?
+                        </p>
+                        <button class="card-dismiss">
+                            <i class="fas fa-times fa-2x"></i>
+                        </button>
+                    </div>
+                </div>
+                <pre><code>
+    &#x3C;div class=&#x22;card card-horizontal&#x22;&#x3E;
+        &#x3C;span class=&#x22;card-badge&#x22;&#x3E;New&#x3C;/span&#x3E;
+        &#x3C;div class=&#x22;card-image-container&#x22;&#x3E;
+            &#x3C;button class=&#x22;card-favourite&#x22;&#x3E;
+                &#x3C;i class=&#x22;far fa-heart fa-2x&#x22;&#x3E;&#x3C;/i&#x3E;
+            &#x3C;/button&#x3E;
+            &#x3C;img src=&#x22;/assets/img/atomic-habits.jpg&#x22; 
+            alt=&#x22;&#x22;&#x3E;
+        &#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;card-details-container&#x22;&#x3E;
+            &#x3C;div class=&#x22;card-title&#x22;&#x3E;Atomic Habits&#x3C;/div&#x3E;
+            &#x3C;div class=&#x22;card-seller&#x22;&#x3E;
+                by James Clear
+            &#x3C;/div&#x3E;
+            &#x3C;div class=&#x22;card-price&#x22;&#x3E;
+                &#x3C;span class=&#x22;card-current-price&#x22;&#x3E;
+                    &#x20B9;540
+                &#x3C;/span&#x3E;
+                &#x3C;span class=&#x22;card-actual-price&#x22;&#x3E;
+                    &#x20B9;799
+                &#x3C;/span&#x3E;
+                &#x3C;span class=&#x22;card-price-off&#x22;&#x3E;
+                    32% off
+                &#x3C;/span&#x3E;
+            &#x3C;/div&#x3E;
+            &#x3C;span class=&#x22;card-description&#x22;&#x3E;
+                This pragmatic approach to productivity     
+                is a perfect addition to your shelf 
+                if you are having trouble.
+            &#x3C;/span&#x3E;
+        &#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;card-cta&#x22;&#x3E;
+            &#x3C;button class=&#x22;btn btn-secondary&#x22;&#x3E;
+                Add to cart
+            &#x3C;/button&#x3E;
+            &#x3C;button class=&#x22;btn btn-primary&#x22;&#x3E;
+                Buy Now
+            &#x3C;/button&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+                </code></pre>
+            </div>
         </section>
         
         <section id="Image">
