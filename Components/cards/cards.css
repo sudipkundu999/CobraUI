@@ -129,7 +129,7 @@
     position: absolute;
     right: 15px;
     top:10px;
-
+    cursor: pointer;
     border: none;
     background: none;
     color:var(--red-bg);
