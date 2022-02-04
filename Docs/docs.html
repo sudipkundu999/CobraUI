@@ -504,8 +504,59 @@
         
         <section id="Input">
             <h2>Input</h2>
-            <p></p>
-            <code></code>
+            <p>Input's are used to get various types of user input like email id, password etc</p>
+            <div class="input-display-container">
+                <div class="input-display">
+                    <div class="id-pass-container">
+                        <h3>Before</h3>
+                        <input type="email" class="email" placeholder="Enter email-id">
+                        <input type="password" class="password" placeholder="Enter password">
+                        <button class="btn btn-primary">Login</button>
+                    </div>
+                    <div class="id-pass-container">
+                        <h3>After wrong input format</h3>
+                        <input type="email" class="email email-error" placeholder="xyz.com">
+                        <input type="password" class="password password-error" placeholder="********">
+                        <button class="btn btn-primary">Login</button>
+                    </div>
+                    <div class="id-pass-container">
+                        <h3>After correct input format</h3>
+                        <input type="email" class="email email-success" placeholder="xyz@neog.camp">
+                        <input type="password" class="password password-success" placeholder="********">
+                        <button class="btn btn-primary">Login</button>
+                    </div>
+                    <div class="textarea-container">
+                        <h3>Textarea</h3>
+                        <textarea class="textarea"></textarea>
+                        <button class="btn btn-primary">Send</button>
+                    </div>
+                </div>
+                <pre><code>
+    &#x3C;div class=&#x22;id-pass-container&#x22;&#x3E;
+        &#x3C;h3&#x3E;Before&#x3C;/h3&#x3E;
+        &#x3C;input type=&#x22;email&#x22; class=&#x22;email&#x22; placeholder=&#x22;Enter email-id&#x22;&#x3E;
+        &#x3C;input type=&#x22;password&#x22; class=&#x22;password&#x22; placeholder=&#x22;Enter password&#x22;&#x3E;
+        &#x3C;button class=&#x22;btn btn-primary&#x22;&#x3E;Login&#x3C;/button&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;id-pass-container&#x22;&#x3E;
+        &#x3C;h3&#x3E;After wrong input format&#x3C;/h3&#x3E;
+        &#x3C;input type=&#x22;email&#x22; class=&#x22;email email-error&#x22; placeholder=&#x22;xyz.com&#x22;&#x3E;
+        &#x3C;input type=&#x22;password&#x22; class=&#x22;password password-error&#x22; placeholder=&#x22;********&#x22;&#x3E;
+        &#x3C;button class=&#x22;btn btn-primary&#x22;&#x3E;Login&#x3C;/button&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;id-pass-container&#x22;&#x3E;
+        &#x3C;h3&#x3E;After correct input format&#x3C;/h3&#x3E;
+        &#x3C;input type=&#x22;email&#x22; class=&#x22;email email-success&#x22; placeholder=&#x22;xyz@neog.camp&#x22;&#x3E;
+        &#x3C;input type=&#x22;password&#x22; class=&#x22;password password-success&#x22; placeholder=&#x22;********&#x22;&#x3E;
+        &#x3C;button class=&#x22;btn btn-primary&#x22;&#x3E;Login&#x3C;/button&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;div class=&#x22;textarea-container&#x22;&#x3E;
+        &#x3C;h3&#x3E;Textarea&#x3C;/h3&#x3E;
+        &#x3C;textarea class=&#x22;textarea&#x22;&#x3E;&#x3C;/textarea&#x3E;
+        &#x3C;button class=&#x22;btn btn-primary&#x22;&#x3E;Send&#x3C;/button&#x3E;
+    &#x3C;/div&#x3E;
+                </code></pre>
+            </div>
         </section>
         
         <section id="Navigation">
