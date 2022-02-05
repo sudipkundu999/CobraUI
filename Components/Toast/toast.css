@@ -1,11 +1,10 @@
 :root{
-    --BG:#262626;
-    --BTN-HOVER:rgb(255, 46, 46);
-    --BTN-HOVER-BG:#3d3d3d;
+    --primary:#334155;
+    --secondary:#155E75;
 }
 .toast{
     width:40rem;
-    background:var(--BG);
+    background:var(--primary);
     color: white;
     padding:.7rem 2rem;
     border-radius: 1rem;
@@ -20,9 +19,8 @@
 .btn-toast{
     border: none;
     cursor: pointer;
-    background:none;
-    fill:white;
-    color: var(--BTN-HOVER);
+    background:var(--secondary);
+    color: white;
     font-weight: bold;
     font-size: 1.5rem;
     border-radius: 5px;
@@ -32,6 +30,7 @@
     padding: 5px;
 }
 
-.btn-toast:first-child:hover{
-    background:var(--BTN-HOVER-BG);
+.btn-toast:last-child{
+    padding: 4px 7px;
+    border-radius: 50%;
 }
