@@ -1,0 +1,10 @@
+.modal-display-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+.modal-display-container pre code{
+    max-width: min-content;
+}

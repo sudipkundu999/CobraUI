@@ -36,7 +36,7 @@
                 <li><a href="#Card">Card</a></li>
                 <li><a href="#Image">Image</a></li>
                 <li><a href="#Input">Input</a></li>
-                <li><a href="#Navigation">Navigation</a></li>
+                <li><a href="#Modal">Modal</a></li>
                 <li><a href="#Toast">Toast</a></li>
                 <li><a href="#Typography">Typography</a></li>
             </ul>
@@ -559,16 +559,52 @@
             </div>
         </section>
         
-        <section id="Navigation">
-            <h2>Navigation</h2>
-            <p></p>
-            <code></code>
+        <section id="Modal">
+            <h2>Modal</h2>
+            <p>Modals are used to attract user attention by popping up above everything.</p>
+            <div class="modal-display-container">
+                <div class="dialog">
+                    <h2>Dialog header</h2>
+                    <p class="dialog-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam odio quidem vero cumque ipsum quibusdam aliquam dolores, consequuntur dolor fugit consequatur tempore labore enim beatae voluptatum? Aut, laudantium. Quis, debitis!</p>
+                    <div class="dialog-footer">
+                        <button class="btn btn-primary">ACTION 1</button>
+                        <button class="btn btn-secondary">ACTION 2</button>
+                    </div>
+                </div>
+                <pre><code>
+    &#x3C;div class=&#x22;dialog&#x22;&#x3E;
+        &#x3C;h2&#x3E;Dialog header&#x3C;/h2&#x3E;
+        &#x3C;p class=&#x22;dialog-description&#x22;&#x3E;Description&#x3C;/p&#x3E;
+        &#x3C;div class=&#x22;dialog-footer&#x22;&#x3E;
+            &#x3C;button class=&#x22;btn btn-primary&#x22;&#x3E;ACTION 1&#x3C;/button&#x3E;
+            &#x3C;button class=&#x22;btn btn-secondary&#x22;&#x3E;ACTION 2&#x3C;/button&#x3E;   
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;                   
+                </code></pre>
+            </div>
         </section>
         
         <section id="Toast">
             <h2>Toast</h2>
-            <p></p>
-            <code></code>
+            <p>Toast and Snackbar component perform similar function to attract user attention</p>
+            <div class="toast-display-container">
+                <div class="toast">
+                    Can't send photo. Retry in 5 seconds.
+                    <button class="btn-toast">RETRY</button>
+                    <button class="btn-toast"><i class="fas fa-times"></i></button>
+                </div>
+            <pre><code>
+    &#x3C;div class=&#x22;toast-display&#x22;&#x3E;
+        &#x3C;div class=&#x22;toast&#x22;&#x3E;
+            Can&#x27;t send photo. Retry in 5 seconds.
+            &#x3C;button class=&#x22;btn-toast&#x22;&#x3E;RETRY&#x3C;/button&#x3E;  
+            &#x3C;button class=&#x22;btn-toast&#x22;&#x3E;
+                &#x3C;i class=&#x22;fas fa-times&#x22;&#x3E;&#x3C;/i&#x3E;
+            &#x3C;/button&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E; 
+            </code></pre>
+            </div>
         </section>
         
         <section id="Typography">

@@ -1,0 +1,37 @@
+:root{
+    --BG:#262626;
+    --BTN-HOVER:rgb(255, 46, 46);
+    --BTN-HOVER-BG:#3d3d3d;
+}
+.toast{
+    width:40rem;
+    background:var(--BG);
+    color: white;
+    padding:.7rem 2rem;
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1.5rem;
+}
+
+.btn-toast{
+    border: none;
+    cursor: pointer;
+    background:none;
+    fill:white;
+    color: var(--BTN-HOVER);
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.btn-toast:first-child{
+    padding: 5px;
+}
+
+.btn-toast:first-child:hover{
+    background:var(--BTN-HOVER-BG);
+}
