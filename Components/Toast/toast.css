@@ -1,0 +1,36 @@
+:root{
+    --primary:#334155;
+    --secondary:#155E75;
+}
+.toast{
+    width:40rem;
+    background:var(--primary);
+    color: white;
+    padding:.7rem 2rem;
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1.5rem;
+}
+
+.btn-toast{
+    border: none;
+    cursor: pointer;
+    background:var(--secondary);
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.btn-toast:first-child{
+    padding: 5px;
+}
+
+.btn-toast:last-child{
+    padding: 4px 7px;
+    border-radius: 50%;
+}
