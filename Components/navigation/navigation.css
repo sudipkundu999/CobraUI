@@ -1,0 +1,47 @@
+.cui-navigation-container{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.cui-nav-brand{
+    display: flex;
+    align-items: center;
+}
+
+.cui-nav-brand-logo{
+    height: 4rem;
+    width: 4rem;
+}
+
+.cui-nav-search{
+    margin: auto;
+    width: max-content;
+    height: 3rem;
+    display: flex;
+    gap: 2px;
+}
+
+.cui-nav-search input{
+    width: 25rem;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.cui-nav-right{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.cui-nav-right svg{
+    width: 3rem;
+}
+
+.cui-nav-search svg{
+    width:2.5rem;
+}
