@@ -12,6 +12,10 @@
     gap: 2rem;
 }
 
+.input-display-container:last-child{
+    margin-top: 5rem;
+}
+
 .input-display-container pre code{
     height: 15rem;
     max-width: min-content;
