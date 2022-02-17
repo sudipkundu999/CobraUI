@@ -28,22 +28,16 @@ To start using the components in your project, import the library either in your
 
 ### Components
 
-- [Cobra UI](#cobra-ui)
-  - [Component library to build UI faster](#component-library-to-build-ui-faster)
-  - [Live Website: Cobra UI](#live-website-cobra-ui)
-  - [Quick Start](#quick-start)
-    - [Components](#components)
-    - [Alert](#alert)
-    - [Avatar](#avatar)
-    - [Badge](#badge)
-    - [Button](#button)
-    - [Card](#card)
-    - [Image](#image)
-    - [Input](#input)
-    - [Modal](#modal)
-    - [Navigation](#navigation)
-  - [- Simple Desktop Navigation](#--simple-desktop-navigation)
-    - [Toast](#toast)
+- [Alert](#alert)
+- [Avatar](#avatar)
+- [Badge](#badge)
+- [Button](#button)
+- [Card](#card)
+- [Image](#image)
+- [Input](#input)
+- [Modal](#modal)
+- [Navigation](#navigation)
+- [Toast](#toast)
 
 ---
 ### Alert
