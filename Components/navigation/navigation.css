@@ -1,47 +1,53 @@
-.cui-navigation-container{
+:root{
+    --primary:#334155;
+    --nav-hover:#29bae2;
+    --grey:#A7A7A7;
+    --text-light:#ffff;
+}
+
+.navigation-container{
     width: 100%;
-    height: 5rem;
+    height: 6rem;
     display: flex;
+    justify-content: space-between;
+    gap: 5rem;
     align-items: center;
-    padding: 0 2rem;
+    padding: 0 2.5rem;
+    background-color: var(--primary);
+    color: var(--text-light);
 }
 
-.cui-nav-brand{
+.navigation-container a:hover{
+    color: var(--nav-hover);
+}
+
+.nav-search{
+    padding: 10px 10px;
+    width: 30rem;
+    border-radius: 5px;
+    outline: none;
+    background-color: inherit;
+    color: var(--text-light);
+    border: 2px solid var(--grey);
+}
+
+.nav-search:focus{
+    border: 2px solid var(--nav-hover);
+}
+
+.nav-right{
     display: flex;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin-left: 2rem;
 }
 
-.cui-nav-brand-logo{
-    height: 4rem;
-    width: 4rem;
-}
-
-.cui-nav-search{
-    margin: auto;
-    width: max-content;
-    height: 3rem;
-    display: flex;
-    gap: 2px;
-}
-
-.cui-nav-search input{
-    width: 25rem;
-    padding: 1rem;
-    border-radius: 10px;
-    border: 1px solid black;
-}
-
-.cui-nav-right{
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-}
-
-.cui-nav-right svg{
-    width: 3rem;
-}
-
-.cui-nav-search svg{
-    width:2.5rem;
+.nav-links span{
+    font-size: 1.2rem;
+    font-weight: 700;
 }

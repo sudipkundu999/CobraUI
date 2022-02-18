@@ -1,14 +1,10 @@
-.cui-navigation-container{
-    border: 1px solid black;
-}
-
 pre code{
     margin-top: 2rem;
 }
 
 
 @media screen and (max-width:1000px) {
-    .cui-navigation-container{
+    .navigation-container{
         width:90vw;
         overflow: scroll;
     }
