@@ -79,6 +79,12 @@ aside ul li:hover{
     margin-top: 2rem;
 }
 
+.back-to-top-btn{
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
+
 @media screen and (max-width:1100px) {
     aside,li{
         font-size: 1.75rem;
