@@ -48,3 +48,9 @@
 .btn-icon{
     border: thin solid var(--primary);
 }
+
+.btn-floating{
+    background: none;
+    border-radius: 50%;
+    padding: 0;
+}
