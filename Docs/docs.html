@@ -443,35 +443,72 @@
                     </div>
                 </div>
                 <pre><code>
+    &#x3C;!-- Vertical Card --&#x3E;
+    &#x3C;div class=&#x22;card&#x22;&#x3E;
+        &#x3C;!-- Add the below tag for text overlay --&#x3E;
+        &#x3C;span class=&#x22;card-text-overlay&#x22;&#x3E;
+            Out of stock!
+        &#x3C;/span&#x3E; 
+        &#x3C;span class=&#x22;card-badge&#x22;&#x3E;New&#x3C;/span&#x3E;
+        &#x3C;div class=&#x22;card-image-container&#x22;&#x3E;
+            &#x3C;button class=&#x22;card-favourite&#x22;&#x3E;
+                &#x3C;i class=&#x22;far fa-heart fa-2x&#x22;&#x3E;&#x3C;/i&#x3E;    
+            &#x3C;/button&#x3E;
+            &#x3C;img src=&#x22;&#x22; alt=&#x22;&#x22;&#x3E;
+        &#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;card-details-container&#x22;&#x3E;
+            &#x3C;div class=&#x22;card-title&#x22;&#x3E;TITLE&#x3C;/div&#x3E;
+            &#x3C;div class=&#x22;card-seller&#x22;&#x3E;
+                SELLER
+            &#x3C;/div&#x3E;
+            &#x3C;div class=&#x22;card-price&#x22;&#x3E;
+                &#x3C;span class=&#x22;card-current-price&#x22;&#x3E;
+                    CURRENT PRICE
+                &#x3C;/span&#x3E;
+                &#x3C;span class=&#x22;card-actual-price&#x22;&#x3E;
+                    ACTUAL PRICE
+                &#x3C;/span&#x3E;
+                &#x3C;span class=&#x22;card-price-off&#x22;&#x3E;
+                    DISCOUNT
+                &#x3C;/span&#x3E;
+            &#x3C;/div&#x3E;
+        &#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;card-cta&#x22;&#x3E;
+            &#x3C;button class=&#x22;btn btn-secondary&#x22;&#x3E;
+                Add to cart
+            &#x3C;/button&#x3E;
+            &#x3C;button class=&#x22;btn btn-primary&#x22;&#x3E;
+                Buy Now
+            &#x3C;/button&#x3E;
+        &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;!-- Horizontal Card --&#x3E;
     &#x3C;div class=&#x22;card card-horizontal&#x22;&#x3E;
         &#x3C;span class=&#x22;card-badge&#x22;&#x3E;New&#x3C;/span&#x3E;
         &#x3C;div class=&#x22;card-image-container&#x22;&#x3E;
             &#x3C;button class=&#x22;card-favourite&#x22;&#x3E;
                 &#x3C;i class=&#x22;far fa-heart fa-2x&#x22;&#x3E;&#x3C;/i&#x3E;
             &#x3C;/button&#x3E;
-            &#x3C;img src=&#x22;/assets/img/atomic-habits.jpg&#x22; 
-            alt=&#x22;&#x22;&#x3E;
+            &#x3C;img src=&#x22;&#x22; alt=&#x22;&#x22;&#x3E;
         &#x3C;/div&#x3E;
         &#x3C;div class=&#x22;card-details-container&#x22;&#x3E;
-            &#x3C;div class=&#x22;card-title&#x22;&#x3E;Atomic Habits&#x3C;/div&#x3E;
+            &#x3C;div class=&#x22;card-title&#x22;&#x3E;TITLE&#x3C;/div&#x3E;
             &#x3C;div class=&#x22;card-seller&#x22;&#x3E;
-                by James Clear
+                SELLER
             &#x3C;/div&#x3E;
             &#x3C;div class=&#x22;card-price&#x22;&#x3E;
                 &#x3C;span class=&#x22;card-current-price&#x22;&#x3E;
-                    &#x20B9;540
+                    CURRENT PRICE
                 &#x3C;/span&#x3E;
                 &#x3C;span class=&#x22;card-actual-price&#x22;&#x3E;
-                    &#x20B9;799
+                    ACTUAL PRICE
                 &#x3C;/span&#x3E;
                 &#x3C;span class=&#x22;card-price-off&#x22;&#x3E;
-                    32% off
+                    DISCOUNT
                 &#x3C;/span&#x3E;
             &#x3C;/div&#x3E;
             &#x3C;span class=&#x22;card-description&#x22;&#x3E;
-                This pragmatic approach to productivity     
-                is a perfect addition to your shelf 
-                if you are having trouble.
+            DESCRIPTION...
             &#x3C;/span&#x3E;
         &#x3C;/div&#x3E;
         &#x3C;div class=&#x22;card-cta&#x22;&#x3E;
@@ -482,6 +519,18 @@
                 Buy Now
             &#x3C;/button&#x3E;
         &#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;!-- TEXT ONLY CARD WITH DISMISS --&#x3E;
+    &#x3C;div class=&#x22;text-only-card&#x22;&#x3E;
+        &#x3C;span class=&#x22;card-header&#x22;&#x3E;
+            HEADER
+        &#x3C;/span&#x3E;
+        &#x3C;p&#x3E;
+        SOME TEXT HERE
+        &#x3C;/p&#x3E;
+        &#x3C;button class=&#x22;card-dismiss&#x22;&#x3E;
+            &#x3C;i class=&#x22;fas fa-times fa-2x&#x22;&#x3E;&#x3C;/i&#x3E;
+        &#x3C;/button&#x3E;
     &#x3C;/div&#x3E;
                 </code></pre>
             </div>
