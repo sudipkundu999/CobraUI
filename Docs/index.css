@@ -7,34 +7,33 @@
 :root{
     font-size: 62.5%;
     font-family: 'Nunito Sans', sans-serif;
-    --BG-DARK:#999999
+    --BG-DARK:#999999;
+    --secondary: #155E75;
 }
 
 body{
     height:100vh;
     width:60%;
-    margin: auto
+    margin: auto;
+    padding: 3rem 0;
 }
 
-nav{
-    padding-top: 3rem;
+header{
     width: 100%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     font-size: 2.5rem;
+    height: 5rem;
 }
 
-.nav-left{
+.header-brand{
     font-weight: 600
 }
 
-span{
+.header-brand span{
     font-size: 1.5rem;
     font-weight: 400;
-}
-
-.nav-right{
-    margin-left: auto
 }
 
 a{
@@ -43,22 +42,28 @@ a{
     color: inherit;
 }
 
+a:hover{
+    color: var(--secondary);
+}
+
 main{
-    margin-top: 10rem;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: calc(100vh - 17rem);
 }
 
 .image{
-    width:25rem;
-    height:25rem;
+    --logo-size:22rem;
+    width:var(--logo-size);
+    height:var(--logo-size);
 }
 
 img{
     width: 100%;
     height: 100%;
+    margin-bottom: 2rem;
 }
 
 .description{
@@ -66,32 +71,35 @@ img{
     text-align: center;
 }
 
-#docs{
-    font-size: 1.75rem;
-    font-weight: 600;
-    background: rgb(199, 199, 199);
-    padding: .2rem 1rem .2rem 1rem;
-    border-radius: 5rem;
+footer{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-@media screen and (max-width:1080px) {
-    body{
-        width:80%
-    }
+.footer-text{
+    font-size: 1.75rem;
+    font-weight: 600;
+    font-style: italic;
+}
 
-    .description{
-        font-size: 1.7rem
+.footer-links{
+    display: flex;
+    gap: 1.5rem;
+    font-size: 2.2rem;
+}
+
+@media screen and (max-width:850px) {
+    body{
+        width:80%;
+        padding: 1rem 0;
     }
 
     .image{
         width:20rem;
         height:20rem;
-        margin-bottom: 1rem
-    }
-}
-
-@media screen and (max-width:642px) {
-    main{
-        margin-top: 2rem
     }
 }

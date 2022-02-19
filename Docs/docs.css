@@ -11,6 +11,7 @@
     
     --PRIMARY-TEXT-COLOR:#3f3f3f;
     --SHADOW:rgb(219, 219, 219);
+    --secondary: #155E75;
 }
 
 html{
@@ -34,10 +35,14 @@ header{
     height: 10vh;
     padding: 0 4rem 0 4rem;
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 700;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+a:hover{
+    color: var(--secondary);
 }
 
 aside{
@@ -116,4 +121,11 @@ aside ul li:hover{
     code{
         width:90vw;
     }
+}
+
+@media screen and (max-height:510px) {
+    aside{
+    overflow-y: scroll;
+    }
+
 }
