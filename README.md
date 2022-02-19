@@ -2,12 +2,13 @@
 
 # Cobra UI
 
-<img alt="Cobra" src="./assets/img/Cobra-white.png" width="200px" height="200px" />
+<img alt="Cobra" src="./assets/img/cobra-light-border.png" width="200px" height="200px" />
 
 ## Component library to build UI faster
 
 ---
 
+![COBRA UI gif](/assets/COBRA-UI.gif)
 ## Live Website: [Cobra UI](https://cobra-ui.netlify.app/)
 </div>
 
