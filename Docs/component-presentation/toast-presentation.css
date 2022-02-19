@@ -6,6 +6,10 @@
     justify-content: center;
 }
 
+.toast{
+    max-width: 75vw;
+}
+
 .toast-display-container pre code{
     max-width: min-content;
 }
