@@ -6,7 +6,7 @@
 }
 
 .badge-color{
-    color: white;
+    color: var(--white);
     font-size: 1rem;
     font-weight: 700;
     text-align: center;
@@ -17,8 +17,8 @@
     height: max-content;
 
     border-radius:100%;
-    border: 1px solid white;
-    background: red;
+    border: 1px solid var(--white);
+    background: var(--red-bg);
     position: absolute;
     right:0;
 }
@@ -48,9 +48,9 @@
 }
 
 .badge-online{
-    background: green;
+    background: var(--success);
 }
 
 .badge-offline{
-    background: red;
+    background: var(--danger);
 }

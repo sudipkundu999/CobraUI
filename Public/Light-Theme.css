@@ -2,6 +2,49 @@
 @import url(/Components/components.css);
 
 :root{
-    /* add color's here */
-    --COLOR-WHITE: white; 
+    --white: #ffff;
+    --white-light:#f7f7f7;
+    --grey:#808080;
+    --black:#111827;
+    --black-light:#3f3f3f;
+
+    --primary:#334155;
+    --secondary:#155E75;
+    --success:#22C55E;
+    --danger:#EF4444 ;
+    --warning:#D97706;
+
+    --red:#b12a2a;
+    --red-light:#ffc8c8;
+    --red-bg:#e92c2c;
+    --green:#8dc737;
+    --green-light:#c9fcc9;
+    --yellow:#e0e023;
+    --yellow-light:#fcfc91;
+    --yellow-bright:#facc15;
+    --blue:#4f4fff;
+
+    --nav-hover:#29bae2;
+    --box-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --shadow-grey:#dbdbdb;
+}
+
+/* to be added in utilities later */
+h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+  
+h3{
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+  
+.m-auto{
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }

@@ -1,11 +1,7 @@
-:root{
-    --primary:#334155;
-    --secondary:#155E75;
-}
 .toast{
     width:40rem;
     background:var(--primary);
-    color: white;
+    color: var(--white);
     padding:.7rem 2rem;
     border-radius: 1rem;
 
@@ -20,7 +16,7 @@
     border: none;
     cursor: pointer;
     background:var(--secondary);
-    color: white;
+    color: var(--white);
     font-weight: bold;
     font-size: 1.5rem;
     border-radius: 5px;

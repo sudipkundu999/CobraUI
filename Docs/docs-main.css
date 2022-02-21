@@ -1,9 +1,5 @@
 @import url(/public/light-theme.css);
 @import url(/docs/component-presentation/component-presentation.css);
-h2{
-    font-size: 2.5rem;
-    font-weight: 700;
-}
 
 p{
     font-size: 1.8rem;
@@ -20,9 +16,4 @@ code{
 
 pre code.hljs{
     padding: 5px;
-}
-
-h3{
-    font-size: 1.75rem;
-    font-weight: 600;
 }
