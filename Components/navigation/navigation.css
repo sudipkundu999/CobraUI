@@ -1,10 +1,3 @@
-:root{
-    --primary:#334155;
-    --nav-hover:#29bae2;
-    --grey:#A7A7A7;
-    --text-light:#ffff;
-}
-
 .navigation-container{
     width: 100%;
     height: 6rem;
@@ -14,7 +7,7 @@
     align-items: center;
     padding: 0 2.5rem;
     background-color: var(--primary);
-    color: var(--text-light);
+    color: var(--white);
 }
 
 .navigation-container a:hover{
@@ -27,8 +20,8 @@
     border-radius: 5px;
     outline: none;
     background-color: inherit;
-    color: var(--text-light);
-    border: 2px solid var(--grey);
+    color: var(--white);
+    border: 2px solid var(--white-light);
 }
 
 .nav-search:focus{

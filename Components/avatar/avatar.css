@@ -4,8 +4,8 @@
     width: var(--size);
     border-radius: 50%;
 
-    color: white;
-    background:grey;
+    color: var(--white);
+    background:var(--grey);
 
     display: flex;
     justify-content: center;

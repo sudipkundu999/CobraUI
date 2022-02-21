@@ -8,10 +8,6 @@
 :root{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 62.5%;
-    
-    --PRIMARY-TEXT-COLOR:#3f3f3f;
-    --SHADOW:rgb(219, 219, 219);
-    --secondary: #155E75;
 }
 
 html{
@@ -26,12 +22,12 @@ body{
     'sidebar main main main main'
     'sidebar main main main main'
     'sidebar main main main main';
-    color: var(--PRIMARY-TEXT-COLOR);
+    color: var(--black-light);
 }
 
 header{
     grid-area: header;
-    box-shadow: 0 2px 10px 2px var(--SHADOW);
+    box-shadow: 0 2px 10px 2px var(--shadow-grey);
     height: 10vh;
     padding: 0 4rem 0 4rem;
     font-size: 3rem;
@@ -48,7 +44,7 @@ a:hover{
 aside{
     grid-area: sidebar;
     height:100vh;
-    box-shadow: 1px 5px 5px 2px var(--SHADOW);
+    box-shadow: 1px 5px 5px 2px var(--shadow-grey);
     position: sticky;
     top: 0;
     padding-top: 2rem;

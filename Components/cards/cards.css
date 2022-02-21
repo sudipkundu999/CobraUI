@@ -1,11 +1,7 @@
-:root{
-    --red-bg:#f05d5eff;
-}
-
 .card{
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 0 5px 0 gray;
+    box-shadow: 0 0 5px 0 var(--grey);
     position: relative;
     width: 20rem;
     height: 38rem;
@@ -32,7 +28,7 @@
     padding:5px 7px;
     border-radius: 0 5px 5px 0;
     background: var(--red-bg);
-    color: white;
+    color: var(--white);
 }
 
 .card-favourite{
