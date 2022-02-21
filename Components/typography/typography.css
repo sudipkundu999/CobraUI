@@ -38,7 +38,7 @@ small{
 }
 
 .text-gray{
-    color: var(--grey) !important ;
+    color: var(--grey);
 }
 
 .text-center{
