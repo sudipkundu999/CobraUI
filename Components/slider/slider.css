@@ -1,0 +1,11 @@
+.slider-icon{
+    color: var(--black);
+}
+
+input[type="range"]{
+    cursor: pointer;
+}
+
+.slider-disabled input[type="range"]{
+    cursor: not-allowed;
+}

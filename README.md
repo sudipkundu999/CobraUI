@@ -34,11 +34,14 @@ To start using the components in your project, import the library either in your
 - [Badge](#badge)
 - [Button](#button)
 - [Card](#card)
+- [Grid](#grid)
 - [Image](#image)
 - [Input](#input)
 - [List](#list)
 - [Modal](#modal)
 - [Navigation](#navigation)
+- [Rating](#rating)
+- [Slider](#slider)
 - [Toast](#toast)
 - [Typography](#typography)
 
@@ -105,7 +108,17 @@ You will find the following types of **Card** on https://cobra-ui.netlify.app/do
 - Dismiss Card with Shadow
 
 ---
+### Grid
 
+Grids are easy laying out of a webpage
+
+You will find the following types of **Grid** on https://cobra-ui.netlify.app/docs/docs#Grid
+
+- 2 items in a grid
+- 3 items in a grid
+
+
+---
 ### Image
 
 Images are used to make the website more presentable.
@@ -132,7 +145,7 @@ You will find the following types of **Image** on https://cobra-ui.netlify.app/d
 
 Lists are used to show collective information in an organized to the point manner.
 
-You will find the following types of **Image** on https://cobra-ui.netlify.app/docs/docs#List
+You will find the following types of **List** on https://cobra-ui.netlify.app/docs/docs#List
 
 - Spaced list
 - Stacked list
@@ -156,6 +169,27 @@ Navigation is used to navigate throughout the website quickly and easily.
 You will find the following types of **Navigation** on https://cobra-ui.netlify.app/docs/docs#Navigation
 
 - Simple Desktop Navigation
+---
+
+### Rating
+
+Ratings are visual representation of user satisfaction of any product
+
+You will find the following types of **Rating** on https://cobra-ui.netlify.app/docs/docs#Rating
+
+- Simple rating
+
+---
+### Slider
+
+Slider is used to give user input without using keyboard
+
+You will find the following types of **Slider** on https://cobra-ui.netlify.app/docs/docs#Slider
+
+- Standard slider
+- Slider with icon
+- Slider disabled
+
 ---
 ### Toast
 

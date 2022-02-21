@@ -1,0 +1,10 @@
+.rating-display-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rating-display-container pre code{
+    max-width: min-content;
+}

@@ -1,0 +1,17 @@
+.slider-display-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.slider-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.slider-display-container pre code{
+    max-width: min-content;
+}
