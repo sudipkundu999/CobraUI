@@ -1,0 +1,16 @@
+# File structure
+- ## Assets
+    - contains jpg, png, gif, svg.
+- ## Components
+    - contains css of specific components in their respective folders and sub-folders
+    - all of these individual css files are imported in `components.css`
+- ## Docs
+    - component-presentation
+        - contains css for displaying the components on documentation site
+        - all of these individual css files are imported in `components-presentation.css` 
+    - `docs-main.css` contains css for `<main>` in `docs.html`
+    - `docs.css` contains css for `<header>` and `<aside>` in `docs.html`
+    - `docs.html` is the documentation site for this component library. All the components are displayed here.
+    - `index.css` contains css for `index.html` which is the landing page of this component library.
+- ## Public
+    - contains `light-theme.css` which contains all colors.
