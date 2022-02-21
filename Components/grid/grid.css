@@ -1,0 +1,40 @@
+.grid2{
+    display: grid;
+	grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 'grid2-item1 grid2-item2';
+    width: 100%;
+    height: 10rem;
+}
+
+.grid2-item1{
+    grid-area: grid2-item1;
+    background: var(--primary);
+}
+
+.grid2-item2{
+    grid-area: grid2-item2;
+    background:var(--secondary);
+}
+
+.grid3{
+    display: grid;
+	grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 'grid3-item1 grid3-item2 grid3-item3';
+    width: 100%;
+    height: 10rem;
+}
+
+.grid3-item1{
+    grid-area: grid3-item1;
+    background: var(--success);
+}
+
+.grid3-item2{
+    grid-area: grid3-item2;
+    background:var(--warning);
+}
+
+.grid3-item3{
+    grid-area: grid3-item3;
+    background:var(--danger);
+}

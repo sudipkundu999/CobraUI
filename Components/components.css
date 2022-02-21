@@ -11,3 +11,6 @@
 @import url(/components/navigation/navigation.css);
 @import url(/Components/typography/typography.css);
 @import url(/Components/list/list.css);
+@import url(/Components/rating/rating.css);
+@import url(/Components/slider/slider.css);
+@import url(/Components/grid/grid.css);

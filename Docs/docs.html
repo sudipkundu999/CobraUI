@@ -34,11 +34,14 @@
                 <li><a href="#Badge">Badge</a></li>
                 <li><a href="#Button">Button</a></li>
                 <li><a href="#Card">Card</a></li>
+                <li><a href="#Grid">Grid</a></li>
                 <li><a href="#Image">Image</a></li>
                 <li><a href="#Input">Input</a></li>
                 <li><a href="#List">List</a></li>
                 <li><a href="#Modal">Modal</a></li>
                 <li><a href="#Navigation">Navigation</a></li>
+                <li><a href="#Rating">Rating</a></li>
+                <li><a href="#Slider">Slider</a></li>
                 <li><a href="#Toast">Toast</a></li>
                 <li><a href="#Typography">Typography</a></li>
             </ul>
@@ -541,6 +544,36 @@
             </div>
         </section>
         
+        <section id="Grid">
+            <h2>Grid</h2>
+            <p>Grids are easy laying out of a webpage</p>
+            <h3>2 items in a grid</h3>
+            <div class="grid2">
+                <div class="grid2-item1"></div>
+                <div class="grid2-item2"></div>
+            </div>
+            <h3>3 items in a grid</h3>
+            <div class="grid3">
+                <div class="grid3-item1"></div>
+                <div class="grid3-item2"></div>
+                <div class="grid3-item3"></div>
+            </div>
+            <pre><code>
+    &#x3C;!-- 2 items in a grid --&#x3E;
+    &#x3C;div class=&#x22;grid2&#x22;&#x3E;
+        &#x3C;div class=&#x22;grid2-item1&#x22;&#x3E;&#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;grid2-item2&#x22;&#x3E;&#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+
+    &#x3C;!-- 3 items in a grid --&#x3E;
+    &#x3C;div class=&#x22;grid3&#x22;&#x3E;
+        &#x3C;div class=&#x22;grid3-item1&#x22;&#x3E;&#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;grid3-item2&#x22;&#x3E;&#x3C;/div&#x3E;
+        &#x3C;div class=&#x22;grid3-item3&#x22;&#x3E;&#x3C;/div&#x3E;
+    &#x3C;/div&#x3E;
+            </code></pre>
+        </section>
+
         <section id="Image">
             <h2>Image</h2>
             <p>There are 2 types of images : Responsive images - rectangle and round</p>
@@ -698,13 +731,14 @@
                     </ul>
                 </div>
                 <pre><code>
-        &#x3C;h3&#x3E;Spaced Lists&#x3C;/h3&#x3E;
+        &#x3C;!-- Spaced Lists --&#x3E;
         &#x3C;ul class=&#x22;horizontal-list&#x22;&#x3E;
             &#x3C;li&#x3E;Item 1&#x3C;/li&#x3E;
             &#x3C;li&#x3E;Item 2&#x3C;/li&#x3E;
             &#x3C;li&#x3E;Item 3&#x3C;/li&#x3E;
         &#x3C;/ul&#x3E;
-        &#x3C;h3&#x3E;Stacked lists&#x3C;/h3&#x3E;
+
+        &#x3C;!-- Stacked lists --&#x3E;
         &#x3C;ul&#x3E;
             &#x3C;li class=&#x22;notification-list-item&#x22;&#x3E;Item 1&#x3C;/li&#x3E;    
             &#x3C;li class=&#x22;notification-list-item&#x22;&#x3E;Item 2&#x3C;/li&#x3E;
@@ -780,6 +814,66 @@
             &#x3C;/a&#x3E;
     &#x3C;/div&#x3E;
             </code></pre>
+        </section>
+
+        <section id="Rating">
+            <h2>Rating</h2>
+            <p>Ratings are visual representation of user satisfaction of any product</p>
+            <div class="rating-display-container">
+                <div class="rating">
+                    <i class="fas fa-star fa-2x"></i>
+                    <i class="fas fa-star fa-2x"></i>
+                    <i class="fas fa-star fa-2x"></i>
+                    <i class="far fa-star fa-2x"></i>
+                    <i class="far fa-star fa-2x"></i>
+                </div>
+                <pre><code>
+    &#x3C;div class=&#x22;rating&#x22;&#x3E;
+        &#x3C;i class=&#x22;fas fa-star fa-2x&#x22;&#x3E;&#x3C;/i&#x3E;
+        &#x3C;i class=&#x22;fas fa-star fa-2x&#x22;&#x3E;&#x3C;/i&#x3E;     
+        &#x3C;i class=&#x22;fas fa-star fa-2x&#x22;&#x3E;&#x3C;/i&#x3E;
+        &#x3C;i class=&#x22;far fa-star fa-2x&#x22;&#x3E;&#x3C;/i&#x3E;
+        &#x3C;i class=&#x22;far fa-star fa-2x&#x22;&#x3E;&#x3C;/i&#x3E;
+    &#x3C;/div&#x3E;
+                </code></pre>
+            </div>
+        </section>
+
+        <section id="Slider">
+            <h2>Slider</h2>
+            <p>Slider is used to give user input without using keyboard</p>
+            <div class="slider-display-container">
+                <div class="slider-display">
+                    <h3>Standard Slider</h3>
+                    <input type="range">
+                    <h3>Slider with icon</h3>
+                    <div class="slider-icon">
+                        <i class="fas fa-volume-up fa-2x"></i>
+                        <input type="range">
+                    </div>
+                    <h3>Slider disabled</h3>
+                    <div class="slider-icon slider-disabled">
+                        <i class="fas fa-volume-up fa-2x"></i>
+                        <input type="range" disabled>
+                    </div>
+                </div>
+                <pre><code>
+    &#x3C;!-- Standard Slider --&#x3E;
+    &#x3C;input type=&#x22;range&#x22;&#x3E;
+
+    &#x3C;!-- Slider with icon --&#x3E;
+    &#x3C;div class=&#x22;slider-icon&#x22;&#x3E;
+        &#x3C;i class=&#x22;fas fa-volume-up fa-2x&#x22;&#x3E;&#x3C;/i&#x3E;    
+        &#x3C;input type=&#x22;range&#x22;&#x3E;
+    &#x3C;/div&#x3E;
+    
+    &#x3C;!-- Slider disabled --&#x3E;
+    &#x3C;div class=&#x22;slider-icon slider-disabled&#x22;&#x3E;
+        &#x3C;i class=&#x22;fas fa-volume-up fa-2x&#x22;&#x3E;&#x3C;/i&#x3E;
+        &#x3C;input type=&#x22;range&#x22; disabled&#x3E;
+    &#x3C;/div&#x3E;
+                </code></pre>
+            </div>
         </section>
 
         <section id="Toast">

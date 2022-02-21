@@ -15,6 +15,9 @@ html{
 }
 
 body{
+    max-width: 150rem;
+    margin: auto;
+    box-shadow: 1px 5px 5px 2px var(--shadow-grey);
     display: grid;
 	grid-template-columns: repeat(5,1fr);
 	grid-template-areas:
@@ -119,9 +122,8 @@ aside ul li:hover{
     }
 }
 
-@media screen and (max-height:510px) {
+@media screen and (max-height:725px) {
     aside{
     overflow-y: scroll;
     }
-
 }
