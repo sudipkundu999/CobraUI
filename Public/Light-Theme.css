@@ -29,17 +29,6 @@
     --shadow-grey:#dbdbdb;
 }
 
-/* to be added in utilities later */
-h2{
-    font-size: 2.5rem;
-    font-weight: 700;
-}
-  
-h3{
-    font-size: 1.75rem;
-    font-weight: 600;
-}
-  
 .m-auto{
     margin: auto;
 }

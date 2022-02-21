@@ -36,9 +36,11 @@ To start using the components in your project, import the library either in your
 - [Card](#card)
 - [Image](#image)
 - [Input](#input)
+- [List](#list)
 - [Modal](#modal)
 - [Navigation](#navigation)
 - [Toast](#toast)
+- [Typography](#typography)
 
 ---
 ### Alert
@@ -126,6 +128,16 @@ You will find the following types of **Image** on https://cobra-ui.netlify.app/d
 - Form Input
 
 ---
+### List
+
+Lists are used to show collective information in an organized to the point manner.
+
+You will find the following types of **Image** on https://cobra-ui.netlify.app/docs/docs#List
+
+- Spaced list
+- Stacked list
+
+---
 
 ### Modal
 
@@ -152,5 +164,23 @@ Toast and Snackbar component perform similar function to attract user attention
 You will find the following types of **Toast** on https://cobra-ui.netlify.app/docs/docs#Toast
 
 - Simple Toast
+
+---
+### Typography
+
+You can directly use various tags to write texts
+
+You will find the following types of **Texts** on https://cobra-ui.netlify.app/docs/docs#Typography
+
+- h1
+- h2
+- h3
+- h4
+- h5
+- h6
+- p
+- small text
+- grey text
+- center text
 
 ---

@@ -1,0 +1,14 @@
+.horizontal-list{
+    display: flex;
+}
+
+.notification-list-item{
+    background: var(--primary);
+    width: max-content;
+    color: var(--white);
+    margin: 1px;
+    padding: 5px 1rem;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
