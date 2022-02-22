@@ -7,8 +7,6 @@
 :root{
     font-size: 62.5%;
     font-family: 'Nunito Sans', sans-serif;
-    --BG-DARK:#999999;
-    --secondary: #155E75;
 }
 
 body{
@@ -90,6 +88,15 @@ footer{
     display: flex;
     gap: 1.5rem;
     font-size: 2.2rem;
+}
+
+.dark-mode-toggle{
+    margin-left: 1rem;
+}
+
+.dark-mode-class{
+    background: #162538;
+    color: var(--white-light);
 }
 
 @media screen and (max-width:850px) {
