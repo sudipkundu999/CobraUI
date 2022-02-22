@@ -29,8 +29,14 @@
 }
 
 .btn-link{
-    color: var(--primary);
-    border:thin solid var(--primary);
+    color: var(--blue);
+    font-size: 1.5rem;
+    border:none;
+    background: inherit;
+}
+
+.btn-link:hover{
+    text-decoration: underline;
 }
 
 .btn i{
@@ -38,7 +44,9 @@
 }
 
 .btn-icon{
-    border: thin solid var(--primary);
+    border:none;
+    background: inherit;
+    padding: 0;
 }
 
 .btn-floating{
