@@ -1,17 +1,18 @@
+### [![Netlify Status](https://api.netlify.com/api/v1/badges/4e9691ed-00b1-48a5-bd9c-d92fd3a1db81/deploy-status)](https://app.netlify.com/sites/cobra-ui/deploys)
+
 <div align="center">
 
-# Cobra UI
+<img alt="logo" src="assets\img\logo.png" />
 
-<img alt="Cobra" src="./assets/img/cobra-light-border.png" width="200px" height="200px" />
+# [Cobra UI](https://cobra-ui.netlify.app/)
 
 ## Component library to build UI faster
 
 ---
 
 ![COBRA UI gif](/assets/COBRA-UI.gif)
-## Live Website: [Cobra UI](https://cobra-ui.netlify.app/)
-</div>
 
+</div>
 
 ---
 
@@ -20,7 +21,10 @@
 To start using the components in your project, import the library either in your HTML or CSS file:
 
 ```html
-<link rel="stylesheet" href="https://cobra-ui.netlify.app/public/light-theme.css" />
+<link
+  rel="stylesheet"
+  href="https://cobra-ui.netlify.app/public/light-theme.css"
+/>
 ```
 
 ```css
@@ -46,6 +50,7 @@ To start using the components in your project, import the library either in your
 - [Typography](#typography)
 
 ---
+
 ### Alert
 
 Alerts are used to communicate the user about any important event without interrupting the user's task
@@ -58,6 +63,7 @@ You will find the following types of **Alert** on https://cobra-ui.netlify.app/d
 - General Alert
 
 ---
+
 ### Avatar
 
 An avatar is a visual representation of a person using an image or initials of their name
@@ -68,6 +74,7 @@ You will find the following types of **Avatar** on https://cobra-ui.netlify.app/
 - Avatar with text
 
 ---
+
 ### Badge
 
 Badges are small components placed at the top or bottom right of the parent component to highlight an items status using colors or numbers or both
@@ -108,6 +115,7 @@ You will find the following types of **Card** on https://cobra-ui.netlify.app/do
 - Dismiss Card with Shadow
 
 ---
+
 ### Grid
 
 Grids are easy laying out of a webpage
@@ -117,8 +125,8 @@ You will find the following types of **Grid** on https://cobra-ui.netlify.app/do
 - 2 items in a grid
 - 3 items in a grid
 
-
 ---
+
 ### Image
 
 Images are used to make the website more presentable.
@@ -129,6 +137,7 @@ You will find the following types of **Image** on https://cobra-ui.netlify.app/d
 - Responsive Round Image
 
 ---
+
 ### Input
 
 Input's are used to get various types of user input like email id, password etc
@@ -141,6 +150,7 @@ You will find the following types of **Image** on https://cobra-ui.netlify.app/d
 - Form Input
 
 ---
+
 ### List
 
 Lists are used to show collective information in an organized to the point manner.
@@ -169,6 +179,7 @@ Navigation is used to navigate throughout the website quickly and easily.
 You will find the following types of **Navigation** on https://cobra-ui.netlify.app/docs/docs#Navigation
 
 - Simple Desktop Navigation
+
 ---
 
 ### Rating
@@ -180,6 +191,7 @@ You will find the following types of **Rating** on https://cobra-ui.netlify.app/
 - Simple rating
 
 ---
+
 ### Slider
 
 Slider is used to give user input without using keyboard
@@ -191,6 +203,7 @@ You will find the following types of **Slider** on https://cobra-ui.netlify.app/
 - Slider disabled
 
 ---
+
 ### Toast
 
 Toast and Snackbar component perform similar function to attract user attention
@@ -200,6 +213,7 @@ You will find the following types of **Toast** on https://cobra-ui.netlify.app/d
 - Simple Toast
 
 ---
+
 ### Typography
 
 You can directly use various tags to write texts
